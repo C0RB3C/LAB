@@ -20,3 +20,48 @@ body{
     font-family: 'sora', sans-serif;
     min-height: 100vh;
 }
+
+nav{
+    position:sticky;
+    top: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.1rem 5%;
+    background:rgba(10,6,18,0.85);
+    border-bottom: 1px solid var(--line);
+}
+
+.logo{
+    font-family: "rajdhani" , sans-serif;
+    font-weight:700;
+    font-size:1.3rem;
+    letter-spacing:0.15em;
+    color:var(--text);
+    text-decoration:none;
+}
+
+.logo span{
+    color: var(--pink);
+    text-shadow: 0 0 12px rgba(255,45,120,0.7);
+}
+
+nav .links a{
+    color: var(--text-dim);
+    text-decoration: none;
+    font-family:rajdhani, sans-serif;
+    font-weight:600;
+    transition:color 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
