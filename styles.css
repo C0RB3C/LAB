@@ -55,7 +55,10 @@ nav .links a{
     transition:color 0.2s;
 }
 
+nav .links a:hover{
 
+    color:var(--cyan);
+}
 
 
 
