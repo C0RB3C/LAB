@@ -28,7 +28,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:1.1rem 5%;
+    padding:0.6rem 5%;
     background:rgba(10,6,18,0.85);
     border-bottom: 1px solid var(--line);
 }
