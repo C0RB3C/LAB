@@ -80,7 +80,7 @@ nav .links a:hover{
 .hero h1 .glow{
     color: var(--pink);
     text-shadow: 0 0 8px rgba(255,45,120,0.8), 0 0 30px rgba(255,45,120,0.8), 0 0 30px rgba(255,45,120,0.8);
-    animation:flicker 5S infinite;
+    animation:flicker 5s infinite;
 }
 
 @keyframes flicker{
